@@ -1,8 +1,8 @@
-#include <Fibonacci.h>
+#include "Fibonacci.h"
 #include <stdexcept>
 
 std::vector<int> Fibonacci::generateFirstNFibonacci(int n) {
-  if (n <= 0) throw std::invalid_argument("Argument must be greater than 0");
+  if (n <= 0) throw std::invalid_argument("Argument must be greater than 0!");
 
   std::vector<int> result;
   result.push_back(0);
